@@ -19,7 +19,7 @@ export default function Projects() {
           window.open('https://github.com/benysserp/Kanap-React')
         }
         if(value === 'portfolio') {
-          alert('Vous naviguez actuellement dessus')
+          window.open('https://github.com/benysserp/portfolio-react-tailwind')
         }
       }
 
