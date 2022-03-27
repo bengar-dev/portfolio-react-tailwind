@@ -24,11 +24,11 @@ export default function Projects() {
       }
 
   return (
-    <div id='projects' className='relative min-h-screen bg-slate-800'>
+    <section id='projects' className='relative min-h-screen bg-slate-800'>
       <h1 className='mt-20 text-center font-bold text-4xl text-slate-200 uppercase'>Réalisations</h1>
       <p className='mt-2 text-center font-medium text-sm text-slate-100'>Quelques projets réalisés</p>
       <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
-      <div className='mt-4 flex flex-col items-center space-y-4'>
+      <div className='mt-4 flex flex-col w-full md:w-full lg:w-9/12 md:ml-auto md:mr-auto items-center space-y-4'>
 
       <article className='container transition-all duration-200 flex items-center w-11/12 h-max bg-slate-700 p-2 rounded-lg hover:shadow-lg' data-aos="flip-up" data-aos-duration='2000'>
             <div className='w-1/4 flex items-center justify-center hidden md:block'>
@@ -67,8 +67,10 @@ export default function Projects() {
                 <button onClick={(e) => e.preventDefault(targetWindow('kanap'))} className='transition-all duration-200 mt-auto mb-0 bg-slate-600 hover:bg-slate-800 font-medium text-sm text-slate-200 rounded p-2'><i className='fas fa-link mr-2' />Voir le projet</button>
             </div>
           </article>
+          <span className='text-xl font-bold text-slate-200'>...</span>
+          <span className='bg-slate-700 p-2 rounded-lg text-sm font-medium text-slate-200'>Vous ?</span>
 
       </div>
-    </div>
+    </section>
   )
 }
