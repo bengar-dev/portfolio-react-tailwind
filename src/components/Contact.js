@@ -84,11 +84,11 @@ export default function Contact() {
       <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
       <h2 className='mt-4 font-medium text-slate-200 text-lg text-center'>Retrouvez moi sur les réseaux sociaux</h2>
       <div className='p-2 mb-10 flex flex-wrap justify-center items-center space-x-2 space-y-2'>
-        <a href='#' onClick={(e) => e.preventDefault(handleClick('github'))} className='mt-2 p-2 hover:bg-stone-400 rounded text-lg text-slate-200 hover:text-stone-800'><i className='fab fa-github' /></a>
-        <a href='#' onClick={(e) => e.preventDefault(handleClick('linkedin'))} className='mt-2 p-2 hover:bg-sky-400 rounded text-lg text-slate-200 hover:text-sky-800'><i className='fab fa-linkedin' /></a>
-        <a href='#' onClick={(e) => e.preventDefault(handleClick('twitch'))} className='mt-2 p-2 hover:bg-purple-400 rounded text-lg text-slate-200 hover:text-purple-800'><i className='fab fa-twitch' /></a>
-        <a href='#' onClick={(e) => e.preventDefault(handleClick('twitter'))} className='mt-2 p-2 hover:bg-cyan-400 rounded text-lg text-slate-200 hover:text-cyan-800'><i className='fab fa-twitter' /></a>
-        <a href='#' onClick={(e) => e.preventDefault(handleClick('mail'))} className='mt-2 p-2 hover:bg-rose-400 rounded text-lg text-slate-200 hover:text-rose-800'><i className='fas fa-at' /></a>
+        <a href='https://github.com/benysserp' onClick={(e) => e.preventDefault(handleClick('github'))} className='mt-2 p-2 hover:bg-stone-400 rounded text-lg text-slate-200 hover:text-stone-800'><i className='fab fa-github' /></a>
+        <a href='https://www.linkedin.com/in/benoit-gar/' onClick={(e) => e.preventDefault(handleClick('linkedin'))} className='mt-2 p-2 hover:bg-sky-400 rounded text-lg text-slate-200 hover:text-sky-800'><i className='fab fa-linkedin' /></a>
+        <a href='https://twitch.tv/pressycw' onClick={(e) => e.preventDefault(handleClick('twitch'))} className='mt-2 p-2 hover:bg-purple-400 rounded text-lg text-slate-200 hover:text-purple-800'><i className='fab fa-twitch' /></a>
+        <a href='https://twitter.com/Bengarcia_pro' onClick={(e) => e.preventDefault(handleClick('twitter'))} className='mt-2 p-2 hover:bg-cyan-400 rounded text-lg text-slate-200 hover:text-cyan-800'><i className='fab fa-twitter' /></a>
+        <a href='mailto:benoitgar.pro@gmail.com' onClick={(e) => e.preventDefault(handleClick('mail'))} className='mt-2 p-2 hover:bg-rose-400 rounded text-lg text-slate-200 hover:text-rose-800'><i className='fas fa-at' /></a>
       </div>
       <footer className='absolute bottom-0 w-full p-2'>
           <p className='text-center font-medium text-slate-300'><i className='fas fa-copyright' /> 2022 - <span className='text-cyan-400 high-blue'>Benoit Garcia</span></p>

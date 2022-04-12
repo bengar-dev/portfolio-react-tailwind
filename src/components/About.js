@@ -29,10 +29,10 @@ export default function About() {
         <img src={profil} className='w-28 h-28 rounded-full border-2 border-slate-400 shadow-xl' data-aos="fade-right" data-aos-duration='1000'/>
         <div className='mt-6 p-4 w-full bg-slate-900 text-slate-200 text-sm flex flex-col space-y-2 rounded-lg' data-aos="fade-down" data-aos-duration='1000'>
           <p>Benoît, 33 ans je vis dans la magnifique ville de Montpellier.</p>
-          <p>Passioné de développement depuis l'âge de 13 ans, après avoir passé 10 ans dans le secteur du bâtiment, en aout 2021 je décide enfin de faire ma passion mon métier.</p>
+          <p>Passionné de développement depuis l'âge de 13 ans, après avoir passé 10 ans dans le secteur du bâtiment, en aout 2021 je décide enfin de faire de cette passion mon métier.</p>
           <p>Etant auto-didacte, je me suis tourné vers l'école OpenClassrooms pour laquelle je viens d'obtenir mon diplôme de Développeur Web.</p>
           <p>Je vais maintenant en démarrer une nouvelle mais, cette fois-ci pour aguerrir mes compétences en front-end et React notamment.</p>
-        
+
           <button onClick={(e) => e.preventDefault(targetWindow('cv'))} className='ml-4 transition-all duration-200 text-base font-medium bg-slate-700 hover:bg-slate-800 p-2 w-44 rounded-lg hover:shadow-lg'><i className='fas fa-download' /> Curriculum Vitae</button>
         </div>
         <div className='mt-2 p-2 w-full flex flex-col items-center overflow-hidden'>

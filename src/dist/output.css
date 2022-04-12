@@ -528,6 +528,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 2.5rem;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.left-40 {
+  left: 10rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -733,6 +741,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 75%;
 }
 
+.w-60 {
+  width: 15rem;
+}
+
 .resize-none {
   resize: none;
 }
@@ -867,6 +879,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-red-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+.bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1280,6 +1302,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:mr-auto {
     margin-right: auto;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:w-8\/12 {
