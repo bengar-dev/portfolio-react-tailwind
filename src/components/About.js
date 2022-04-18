@@ -7,6 +7,7 @@ import computer from '../assets/computer.png'
 import suitcase from '../assets/suitcase.png'
 import game from '../assets/joystick.png'
 import trophy from '../assets/trophy.png'
+import classroom from '../assets/classroom.png'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -39,16 +40,16 @@ export default function About() {
           <h2 className='text-center font-bold text-xl text-slate-200 uppercase'><i className='fas fa-clock mr-2' />Timeline</h2>
           <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
           <ul className='mt-4 w-full flex flex-col text-slate-200' data-aos="flip-up" data-aos-duration='2000'>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2021</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> Formation OpenClassrooms Développeur Web</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2021</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/>Stage intégrateur web chez Cokorico</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2021</span> : <img src={suitcase} className='ml-2 mr-2 w-4 h-4'/>Reconversion professionnelle Développeur</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2011</span> :<img src={suitcase} className='ml-2 mr-2 w-4 h-4'/> Chef d'équipe façadier chez Calces 34</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2011</span> : <img src={suitcase} className='ml-2 mr-2 w-4 h-4'/> Diverses expériences pro en Espagne, Madrid</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2010</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> EF International School of English, NY USA</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2009</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> Baccalauréat STI Génie Electronique</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2008</span> : <img src={trophy} className='ml-2 mr-2 w-4 h-4'/> Troisième Coupe de France de Counter-Strike</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2004</span> : <img src={game} className='ml-2 mr-2 w-4 h-4'/> Joueur e-sport Counter-Strike</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='font-medium text-cyan-400 high-blue mr-2'>2002</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Mes premières lignes de code en HTML</li>
+          <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>17 04 2022</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> <a href='#' alt='certification freecodecamp javascript' className='transition-all hover:text-rose-400 hover:underline'>Certification JavaScript freeCodeCamp<sup><i className='fas fa-link text-sky-500 p-1' /></sup></a></li>
+          <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>14 04 2022</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Début de formation chez OpenClassrooms Développeur front-end React</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>25 03 2022</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> <a href='https://benoitgarcia.fr/ftp/OC-devweb.pdf' alt='certification freecodecamp javascript' className='transition-all hover:text-rose-400 hover:underline'>Diplôme RNCP Niv 5 Développeur Web<sup><i className='fas fa-link text-sky-500 p-1' /></sup></a></li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>21 11 2021</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Début de formation chez OpenClassrooms Développeur web</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>23 08 2021</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/>Stage intégrateur web chez Cokorico</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>14 08 2021</span> : <img src={suitcase} className='ml-2 mr-2 w-4 h-4'/>Reconversion professionnelle Développeur</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2011 2021</span> :<img src={suitcase} className='ml-2 mr-2 w-4 h-4'/> Technico-commercial chez Calces 34 (façadier)</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2010</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> EF International School of English, NY USA</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2009</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> Baccalauréat STI Génie Electronique</li>
+            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2002</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Mes premières lignes de code en HTML</li>
           </ul>
         </div>
       </div>
