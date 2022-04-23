@@ -4,6 +4,8 @@ import logo from '../assets/logo_white.png'
 import groupomania from '../assets/icon-left-font-monochrome-white.png'
 import tailwind from '../assets/tailwind-css-2.svg'
 import kanap from '../assets/kanap_logo.png'
+import shopy from '../assets/logo_shopy.png'
+import usersapp from '../assets/userapp_logo.png'
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -72,7 +74,7 @@ export default function Projects() {
 
           <article className='container transition-all duration-200 flex w-11/12 h-max bg-slate-700 p-2 rounded-lg hover:shadow-lg' data-aos="flip-up" data-aos-duration='2000'>
             <div className='w-1/4 flex items-center justify-center hidden md:flex'>
-                <img src={logo} className='h-20 w-28 object-cover ml-auto mr-auto' alt='Aperçu projet Groupomania' />
+                <img src={shopy} className='w-28 object-cover ml-auto mr-auto' alt='Aperçu projet Groupomania' />
             </div>
             <div className='w-full p-2 flex flex-col'>
                 <h2 className='font-medium text-slate-200 high-blue'>Shopy app</h2>
@@ -87,7 +89,7 @@ export default function Projects() {
 
           <article className='container transition-all duration-200 flex w-11/12 h-max bg-slate-700 p-2 rounded-lg hover:shadow-lg' data-aos="flip-up" data-aos-duration='2000'>
             <div className='w-1/4 flex items-center justify-center hidden md:flex'>
-                <img src={logo} className='h-20 w-28 object-cover ml-auto mr-auto' alt='Aperçu projet Groupomania' />
+                <img src={usersapp} className='w-28 ml-auto mr-auto' alt='Aperçu projet Groupomania' />
             </div>
             <div className='w-full p-2 flex flex-col'>
                 <h2 className='font-medium text-slate-200 high-blue'>Users app</h2>
