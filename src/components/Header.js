@@ -2,15 +2,12 @@ export default function Header() {
 
   function handleScroll(value, div) {
     var target = window.innerHeight * value
-    var test = window.innerHeight
-
-    console.log(test)
 
     document.getElementById(div).scrollIntoView({behavior: "smooth", top: 200});
   }
 
   return (
-    <header className='fixed z-10 top-0 w-full h-16 bg-slate-900 flex items-center justify-center shadow-lg'>
+    <header className='fixed z-10 top-0 w-full h-16 bg-zinc-900 flex items-center justify-center shadow-lg'>
         <nav >
             <ul className='flex space-x-10 text-rose-400'>
                 <li className='flex space-x-2'><a href='#home' alt='Accueil' onClick={(e) => e.preventDefault(handleScroll(0, 'home'))} className='flex items-center space-x-2 text-rose-400 hover:text-rose-300'><i className='fas fa-home' /> <span className='hidden md:block text-sm font-medium'>Accueil</span></a></li>

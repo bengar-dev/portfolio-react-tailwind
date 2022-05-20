@@ -22,34 +22,145 @@ export default function About() {
   }
 
   return (
-    <section id='about' className='relative min-h-screen bg-slate-800'>
-      <h1 className='mt-20 text-center font-bold text-4xl text-slate-200 uppercase'>À propos</h1>
-      <p className='mt-2 text-center font-medium text-sm text-slate-100'>Qui suis-je ?</p>
-      <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
+    <section id='about' className='relative min-h-screen bg-white'>
+      <h1 className='mt-20 text-center font-bold text-4xl text-zinc-900 uppercase'>À propos</h1>
+      <p className='mt-2 text-center font-medium text-sm text-zinc-800'>Qui suis-je ?</p>
+      <div className='mt-4 ml-auto mr-auto h-px bg-rose-500 w-10'></div>
       <div className='mt-4 w-full p-2 flex flex-col lg:flex-row items-center md:w-full lg:w-10/12 lg:ml-auto lg:mr-auto lg:space-x-4'>
-        <img src={profil} className='w-28 h-28 rounded-full border-2 border-slate-400 shadow-xl' data-aos="fade-right" data-aos-duration='1000'/>
-        <div className='mt-6 p-4 w-full bg-slate-900 text-slate-200 text-sm flex flex-col space-y-2 rounded-lg' data-aos="fade-down" data-aos-duration='1000'>
+        <img src={profil} className='w-28 h-28 rounded-full border-2 border-rose-500 shadow-xl' data-aos="fade-right" data-aos-duration='1000'/>
+        <div className='mt-6 p-4 w-full bg-zinc-900 text-white text-sm flex flex-col space-y-2 rounded-lg' data-aos="fade-down" data-aos-duration='1000'>
           <p>Benoît, 33 ans je vis dans la magnifique ville de Montpellier.</p>
           <p>Passionné de développement depuis l'âge de 13 ans, après avoir passé 10 ans dans le secteur du bâtiment, en aout 2021 je décide enfin de faire de cette passion mon métier.</p>
-          <p>Etant auto-didacte, je me suis tourné vers l'école OpenClassrooms pour laquelle je viens d'obtenir mon diplôme de Développeur Web.</p>
-          <p>Je vais maintenant en démarrer une nouvelle mais, cette fois-ci pour aguerrir mes compétences en front-end et React notamment.</p>
+          <p>Etant auto-didacte, je me suis tourné vers l'école OpenClassrooms pour laquelle j'ai obtenu le dipôme de Développeur web.</p>
+          <p>Je suis maintenant en alternance avec l'entreprise <span className="font-bold">Kaliop</span> et en formation avec l'organisme de l'<span className="font-bold">AFPA</span> pour obtenir un diplôme de concepteur d'application.</p>
 
-          <button onClick={(e) => e.preventDefault(targetWindow('cv'))} className='ml-4 transition-all duration-200 text-base font-medium bg-slate-700 hover:bg-slate-800 p-2 w-44 rounded-lg hover:shadow-lg'><i className='fas fa-download' /> Curriculum Vitae</button>
+          <button onClick={(e) => e.preventDefault(targetWindow('cv'))} className='ml-4 transition-all duration-200 text-base text-zinc-900 font-medium bg-white hover:bg-zinc-300 p-2 w-44 rounded-lg hover:shadow-lg'><i className='fas fa-download' /> Curriculum Vitae</button>
         </div>
         <div className='mt-2 p-2 w-full flex flex-col items-center overflow-hidden'>
-          <h2 className='text-center font-bold text-xl text-slate-200 uppercase'><i className='fas fa-clock mr-2' />Timeline</h2>
+          <h2 className='text-center font-bold text-xl text-zinc-900 uppercase'>Mon parcours</h2>
           <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
           <ul className='mt-4 w-full flex flex-col text-slate-200' data-aos="flip-up" data-aos-duration='2000'>
-          <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>17 04 2022</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> <a href='#' alt='certification freecodecamp javascript' className='transition-all hover:text-rose-400 hover:underline'>Certification JavaScript freeCodeCamp<sup><i className='fas fa-link text-sky-500 p-1' /></sup></a></li>
-          <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>14 04 2022</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Début de formation chez OpenClassrooms Développeur front-end React</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>25 03 2022</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> <a href='https://benoitgarcia.fr/ftp/OC-devweb.pdf' alt='certification freecodecamp javascript' className='transition-all hover:text-rose-400 hover:underline'>Diplôme RNCP Niv 5 Développeur Web<sup><i className='fas fa-link text-sky-500 p-1' /></sup></a></li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>21 11 2021</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Début de formation chez OpenClassrooms Développeur web</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>23 08 2021</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/>Stage intégrateur web chez Cokorico</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>14 08 2021</span> : <img src={suitcase} className='ml-2 mr-2 w-4 h-4'/>Reconversion professionnelle Développeur</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2011 2021</span> :<img src={suitcase} className='ml-2 mr-2 w-4 h-4'/> Technico-commercial chez Calces 34 (façadier)</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2010</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> EF International School of English, NY USA</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2009</span> : <img src={graduate} className='ml-2 mr-2 w-4 h-4'/> Baccalauréat STI Génie Electronique</li>
-            <li className='rounded flex items-center transition-all duration-500 hover:bg-slate-900 p-2'><span className='min-w-max font-medium text-cyan-400 high-blue mr-2'>2002</span> : <img src={computer} className='ml-2 mr-2 w-4 h-4'/> Mes premières lignes de code en HTML</li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-red-300 w-24 text-center p-1">
+                06 / 2022
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={suitcase} alt='icon suitcase' className="ml-2 w-6 h-6"/>
+                <p className="">Début de mon alternance chez <span className="font-bold">Kaliop</span></p>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-emerald-300 w-24 text-center p-1">
+                06 / 2022
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={computer} alt='icon computer' className="ml-2 w-6 h-6"/>
+                <p className="">Hackaton 2022 organisé par <span className="font-bold">Pole-emploi</span></p>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-yellow-400 w-24 text-center p-1">
+                03 / 2022
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={graduate} alt='icon graduate' className="ml-2 w-6 h-6"/>
+                <a href="https://www.freecodecamp.org/certification/benysserp/javascript-algorithms-and-data-structures" className="underline hover:no-underline">Certification JavaScript <span className="font-bold">freeCodeCamp</span><sup><i className="ml-1 fas fa-link text-rose-500" /></sup></a>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-purple-300 w-24 text-center p-1">
+                04 / 2022
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={computer} alt='icon computer' className="ml-2 w-6 h-6"/>
+                <p className="">Début de formation front-end React chez <span className="font-bold">OpenClassrooms</span></p>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-yellow-400 w-24 text-center p-1">
+                03 / 2022
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={graduate} alt='icon graduate' className="ml-2 w-6 h-6"/>
+                <a href="https://benoitgarcia.fr/ftp/OC-devweb.pdf" className="underline hover:no-underline">Diplôme RNCP Niv 5 Développeur web<sup><i className="ml-1 fas fa-link text-rose-500" /></sup></a>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-purple-300 w-24 text-center p-1">
+                11 / 2021
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={computer} alt='icon computer' className="ml-2 w-6 h-6"/>
+                <p className="">Début de formation dev web chez <span className="font-bold">OpenClassrooms</span></p>
+              </div>
+          </li>
+
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-red-300 w-24 text-center p-1">
+                09 / 2021
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={computer} alt='icon computer' className="ml-2 w-6 h-6"/>
+                <p className="">Stage intégrateur web chez <span className="font-bold">Cokorico</span></p>
+              </div>
+            </li>
+          
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-purple-300 w-24 text-center p-1">
+                09 / 2021
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={suitcase} alt='icon suitcase' className="ml-2 w-6 h-6"/>
+                <p className="">Reconversion professionnelle Développeur web</p>
+              </div>
+            </li>
+          
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-red-300 w-24 text-center p-1">
+                06 / 2011
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={suitcase} alt='icon suitcase' className="ml-2 w-6 h-6"/>
+                <p className="">Technico-commercial chez Calces 34, <span className="font-bold">Montpellier</span></p>
+              </div>
+            </li>
+          
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-yellow-400 w-24 text-center p-1">
+                10 / 2010
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={graduate} alt='icon graduate' className="ml-2 w-6 h-6"/>
+                <p className="">EF International School of English <span className="font-bold">New-York, USA</span></p>
+              </div>
+            </li>
+          
+          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-yellow-400 w-24 text-center p-1">
+                06 / 2009
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={graduate} alt='icon graduate' className="ml-2 w-6 h-6"/>
+                <p className="">Baccalauréat STI Génie Electronique</p>
+              </div>
+            </li>
+            
+            <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
+              <div className="bg-emerald-400 w-24 text-center p-1">
+                06 / 2002
+              </div>
+              <div className="flex items-center space-x-2 p-1">
+                <img src={computer} alt='icon computer' className="ml-2 w-6 h-6"/>
+                <p className="">Mes premières lignes de code en HTML</p>
+              </div>
+            </li>
+
           </ul>
         </div>
       </div>
