@@ -38,7 +38,7 @@ export default function About() {
         </div>
         <div className='mt-2 p-2 w-full flex flex-col items-center overflow-hidden'>
           <h2 className='text-center font-bold text-xl text-zinc-900 uppercase'>Mon parcours</h2>
-          <div className='mt-4 ml-auto mr-auto h-px bg-slate-400 w-10'></div>
+          <div className='mt-4 ml-auto mr-auto h-px bg-rose-500 w-10'></div>
           <ul className='mt-4 w-full flex flex-col text-slate-200' data-aos="flip-up" data-aos-duration='2000'>
 
           <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
@@ -63,7 +63,7 @@ export default function About() {
 
           <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
               <div className="bg-yellow-400 w-24 text-center p-1">
-                03 / 2022
+                04 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
                 <img src={graduate} alt='icon graduate' className="ml-2 w-6 h-6"/>

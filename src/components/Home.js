@@ -55,11 +55,11 @@ export default function Home() {
               </div>      
             </div>
             <div className='mt-6 flex justify-center space-x-2'>
-              <a href='https://github.com/benysserp' alt='Mon profil Github' onClick={(e) => e.preventDefault(handleClick('github'))} className='mt-2 p-2 text-lg text-slate-200 hover:text-stone-400'><i className='fab fa-github' /></a>
-              <a href='https://www.linkedin.com/in/benoit-gar/' alt='Mon profil Linkedin' onClick={(e) => e.preventDefault(handleClick('linkedin'))} className='mt-2 p-2 text-lg text-slate-200 hover:text-sky-400'><i className='fab fa-linkedin' /></a>
-              <a href='https://twitch.tv/pressycw' alt='Ma chaîne Twitch' onClick={(e) => e.preventDefault(handleClick('twitch'))} className='mt-2 p-2 text-lg text-slate-200 hover:text-purple-400'><i className='fab fa-twitch' /></a>
-              <a href='https://twitter.com/Bengarcia_pro' alt='Mon compte Twitter' onClick={(e) => e.preventDefault(handleClick('twitter'))} className='mt-2 p-2 text-lg text-slate-200 hover:text-cyan-400'><i className='fab fa-twitter' /></a>
-              <a href='mailto:benoitgar.pro@gmail.com' alt='Mon email pro' onClick={(e) => e.preventDefault(handleClick('mail'))} className='mt-2 p-2 text-lg text-slate-200 hover:text-rose-400'><i className='fas fa-at' /></a>
+              <a href='https://github.com/benysserp' alt='Mon profil Github' onClick={(e) => e.preventDefault(handleClick('github'))} className='mt-2 p-2 text-lg text-zinc-800 hover:text-stone-400'><i className='fab fa-github' /></a>
+              <a href='https://www.linkedin.com/in/benoit-gar/' alt='Mon profil Linkedin' onClick={(e) => e.preventDefault(handleClick('linkedin'))} className='mt-2 p-2 text-lg text-zinc-800 hover:text-sky-400'><i className='fab fa-linkedin' /></a>
+              <a href='https://twitch.tv/pressycw' alt='Ma chaîne Twitch' onClick={(e) => e.preventDefault(handleClick('twitch'))} className='mt-2 p-2 text-lg text-zinc-800 hover:text-purple-400'><i className='fab fa-twitch' /></a>
+              <a href='https://twitter.com/Bengarcia_pro' alt='Mon compte Twitter' onClick={(e) => e.preventDefault(handleClick('twitter'))} className='mt-2 p-2 text-lg text-zinc-800 hover:text-cyan-400'><i className='fab fa-twitter' /></a>
+              <a href='mailto:benoitgar.pro@gmail.com' alt='Mon email pro' onClick={(e) => e.preventDefault(handleClick('mail'))} className='mt-2 p-2 text-lg text-zinc-800 hover:text-rose-400'><i className='fas fa-at' /></a>
             </div>
         </div>
     </section>
