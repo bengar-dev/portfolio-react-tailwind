@@ -58,6 +58,7 @@ export default function Projects() {
                 <li className="text-xs bg-white text-zinc-900 p-1 rounded hover:bg-zinc-200">Tailwind</li>
                 <li className="text-xs bg-white text-zinc-900 p-1 rounded hover:bg-zinc-200">Node JS</li>
                 <li className="text-xs bg-white text-zinc-900 p-1 rounded hover:bg-zinc-200">Express</li>
+                <li className="text-xs bg-white text-zinc-900 p-1 rounded hover:bg-zinc-200">Sequelize</li>
                 <li className="text-xs bg-white text-zinc-900 p-1 rounded hover:bg-zinc-200">MySQL</li>
                 </ul>
                 <div className='mb-0 mt-auto flex flex-col lg:flex-row space-y-2 lg:space-x-2'>
