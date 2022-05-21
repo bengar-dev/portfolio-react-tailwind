@@ -41,8 +41,8 @@ export default function About() {
           <div className='mt-4 ml-auto mr-auto h-px bg-rose-500 w-10'></div>
           <ul className='mt-4 w-full flex flex-col text-slate-200' data-aos="flip-up" data-aos-duration='2000'>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-red-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-red-300 w-full md:w-24 text-center p-1">
                 06 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -51,8 +51,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-emerald-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-emerald-300 w-full md:w-24 text-center p-1">
                 06 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -61,8 +61,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-yellow-400 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-yellow-400 w-full md:w-24 text-center p-1">
                 04 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -71,8 +71,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-purple-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-purple-300 w-full md:w-24 text-center p-1">
                 04 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -81,8 +81,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-yellow-400 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-yellow-400 w-full md:w-24 text-center p-1">
                 03 / 2022
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -91,8 +91,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-purple-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-purple-300 w-full md:w-24 text-center p-1">
                 11 / 2021
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -101,8 +101,8 @@ export default function About() {
               </div>
           </li>
 
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-red-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-red-300 w-full md:w-24 text-center p-1">
                 09 / 2021
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -111,8 +111,8 @@ export default function About() {
               </div>
             </li>
           
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-purple-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-purple-300 w-full md:w-24 text-center p-1">
                 09 / 2021
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -121,8 +121,8 @@ export default function About() {
               </div>
             </li>
           
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-red-300 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-red-300 w-full md:w-24 text-center p-1">
                 06 / 2011
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -131,8 +131,8 @@ export default function About() {
               </div>
             </li>
           
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-yellow-400 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-yellow-400 w-full md:w-24 text-center p-1">
                 10 / 2010
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -141,8 +141,8 @@ export default function About() {
               </div>
             </li>
           
-          <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-yellow-400 w-24 text-center p-1">
+          <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-yellow-400 w-full md:w-24 text-center p-1">
                 06 / 2009
               </div>
               <div className="flex items-center space-x-2 p-1">
@@ -151,8 +151,8 @@ export default function About() {
               </div>
             </li>
             
-            <li className="flex items-center text-black text-sm hover:bg-zinc-100 w-max">
-              <div className="bg-emerald-400 w-24 text-center p-1">
+            <li className="flex flex-col md:flex-row items-center text-black text-sm hover:bg-zinc-100">
+              <div className="bg-emerald-400 w-full md:w-24 text-center p-1">
                 06 / 2002
               </div>
               <div className="flex items-center space-x-2 p-1">
